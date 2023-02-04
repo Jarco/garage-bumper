@@ -9,7 +9,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://rocket-league.com/trading"],
+      "matches": ["https://rocket-league.com/trades/*"],
       "js": ["bumper.js"]
     }
   ] 
